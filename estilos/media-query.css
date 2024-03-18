@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media screen and (min-width:600px) {
+    
+
+main{
+    margin: auto;
+}
+
+main>section#sumario{
+    width: 50%;
+    float: right;
+}
+
+main>section#resultado{
+    width: 50%;
+    float: left;
+}
+}

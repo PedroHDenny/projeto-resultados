@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.02em;
+}
+
+body,html{
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    position: relative;
+}
+
+/*PARTE DE CIMA*/
+
+section#resultado{
+    background-image: linear-gradient(to top, #3434ce, #7335d8);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 0px 0px 40px 40px;
+}
+
+section#resultado> p#result{
+    font-size: 1.1em;
+    color:#ffffffc4;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div#ponto{
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(to bottom, #2b2baf, #5e21c0);
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+div#ponto> h1{
+    font-size: 2.9em;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+div#ponto> p{
+    color: #ffffffc4;
+}
+
+section#resultado> h2{
+    font-size: 1.6em;
+    padding-bottom: 20px;
+}
+
+section#resultado>p#text{
+    color: #ffffffc4;
+}
+
+/*PARTE DE BAIXO*/
+
+section#sumario{
+    padding: 30px 40px;
+}
+
+section#sumario>h2{
+    font-size: 1.2em;
+    color: #303b59;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section#sumario>div> p{
+    display: inline;
+}
+
+section#sumario>div{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+div#reacao{
+    background-color: rgba(245, 115, 115, 0.120);
+    padding-left: 10px;
+    margin:15px 0 15px 0;
+}
+
+div#reacao>p.atribute{
+    color: rgba(255, 0, 0, 0.720);
+}
+
+div#memoria{
+    background-color: #e7e7661f;
+    padding-left: 10px; 
+    margin:15px 0 15px 0;
+}
+
+div#memoria> p.atribute{
+    color: #d6c90d;
+}
+
+div#verbal{
+    background-color: #98e02a1f;    
+    padding-left: 10px;
+    margin:15px 0 15px 0;
+}
+
+div#verbal>p.atribute{
+    color: #3ad160e3;
+}
+
+div#visual{
+    background-color: #2727e91a; 
+    padding-left: 10px;
+    margin:15px 0 15px 0;
+}
+
+div#visual>p.atribute{
+    color: #2727e9d7;
+}
+
+p.points{
+    float: right;
+    padding-right: 20px;
+    color: #444444d8;
+}
+
+section#sumario>button{
+    display: block;
+    margin: auto;
+    background-color: #303b59;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 60px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 35px;
+}
